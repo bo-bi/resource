@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T07:02:57.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DIiwt7rT2da_xI8Q2aXZ" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T08:21:47.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GZCUn1KYDWJ2FQ8DbjKf" version="20.2.3" type="github">
   <diagram id="OkfbAYmFlCsFUz27nmYc" name="第 1 页">
-    <mxGraphModel dx="1351" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,6 +91,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="950" as="sourcePoint" />
             <mxPoint x="644" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7OzTF7ERqqm-nkJWWnr-1" value="采取应用草稿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Im89usUlu3mwiEkNjQvP-27">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Im89usUlu3mwiEkNjQvP-28" value="回显草稿&lt;br&gt;(评分+ 意见反馈详情)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -244,7 +249,7 @@
         <mxCell id="Im89usUlu3mwiEkNjQvP-71" value="&lt;b style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;1. 从活动详情页进入&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="490" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Im89usUlu3mwiEkNjQvP-72" value="&lt;h1&gt;注意:&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1. 若为 更新反馈 操作, 则不对评分及原因进行校验, 若是 首次提交, 则需要对评分及原因校验.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;更改之前调用增加意见反馈表还是更新意见反馈表接口的逻辑判断.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;2. 从活动详情页进入和从意见反馈列表进入, 不同入口底部按钮的处理.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;3. 保存草稿要对评分及原因进行校验.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Im89usUlu3mwiEkNjQvP-72" value="&lt;h1&gt;注意:&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1. 若为 更新反馈 操作, 则不对评分及原因进行校验(历史活动更是没有), 若是 首次提交, 则需要对评分及原因校验.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;更改之前调用增加意见反馈表还是更新意见反馈表接口的逻辑判断.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;2. 从活动详情页进入和从意见反馈列表进入, 不同入口底部按钮的处理.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;3. 保存草稿要对评分及原因进行校验.草稿中评分及原因不能为只读可修改.若为更新反馈, 评分及原因为只读不能修改.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="210" width="540" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Im89usUlu3mwiEkNjQvP-73" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;更改一个活动只能有一个意见反馈表流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
